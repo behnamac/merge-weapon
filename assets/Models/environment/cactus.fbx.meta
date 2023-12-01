@@ -1,0 +1,208 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a82ffc93-cb6e-4a60-84f4-09d4bb26c078",
+  "files": [],
+  "subMetas": {
+    "6570f": {
+      "importer": "gltf-mesh",
+      "uuid": "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@6570f",
+      "displayName": "",
+      "id": "6570f",
+      "name": "Mesh_2.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 661
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/environment/bgr_canyon_cactus.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ad11b": {
+      "importer": "gltf-material",
+      "uuid": "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@ad11b",
+      "displayName": "",
+      "id": "ad11b",
+      "name": "Denver.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cf282": {
+      "importer": "gltf-scene",
+      "uuid": "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@cf282",
+      "displayName": "",
+      "id": "cf282",
+      "name": "cactus.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/environment/bgr_canyon_cactus.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@cf282",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@6570f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@7d6ab"
+      ],
+      "materials": [
+        "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@ad11b"
+      ],
+      "scenes": [
+        "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@cf282"
+      ]
+    },
+    "materials": {
+      "a82ffc93-cb6e-4a60-84f4-09d4bb26c078@ad11b": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 2,
+            "HAS_EXPORTED_METALLIC": true
+          },
+          {},
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {
+              "depthBias": -1.4,
+              "depthBiasClamp": 2.8
+            },
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 173,
+              "g": 213,
+              "b": 57,
+              "a": 255
+            },
+            "shininessExponent": 0,
+            "specularFactor": 0.25,
+            "transparencyFactor": 0
+          },
+          {},
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

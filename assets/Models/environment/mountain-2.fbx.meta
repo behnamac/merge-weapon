@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "88dc7890-4d69-4a3a-baf0-62d0bcc8b66b",
+  "files": [],
+  "subMetas": {
+    "a5f8b": {
+      "importer": "gltf-mesh",
+      "uuid": "88dc7890-4d69-4a3a-baf0-62d0bcc8b66b@a5f8b",
+      "displayName": "",
+      "id": "a5f8b",
+      "name": "Plane.001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 412
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e16f": {
+      "importer": "gltf-scene",
+      "uuid": "88dc7890-4d69-4a3a-baf0-62d0bcc8b66b@5e16f",
+      "displayName": "",
+      "id": "5e16f",
+      "name": "mountain-2.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "88dc7890-4d69-4a3a-baf0-62d0bcc8b66b@5e16f",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "88dc7890-4d69-4a3a-baf0-62d0bcc8b66b@a5f8b"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "88dc7890-4d69-4a3a-baf0-62d0bcc8b66b@5e16f"
+      ]
+    }
+  }
+}

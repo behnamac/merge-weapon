@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "f1c36ffb-b282-4078-9e3b-6879ace78637",
+  "files": [],
+  "subMetas": {
+    "15557": {
+      "importer": "gltf-scene",
+      "uuid": "f1c36ffb-b282-4078-9e3b-6879ace78637@15557",
+      "displayName": "",
+      "id": "15557",
+      "name": "jarst_barbed_wire_fence.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "446d8": {
+      "importer": "gltf-mesh",
+      "uuid": "f1c36ffb-b282-4078-9e3b-6879ace78637@446d8",
+      "displayName": "",
+      "id": "446d8",
+      "name": "Cube_33.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 816
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "f1c36ffb-b282-4078-9e3b-6879ace78637@15557",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "f1c36ffb-b282-4078-9e3b-6879ace78637@446d8"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "f1c36ffb-b282-4078-9e3b-6879ace78637@15557"
+      ]
+    }
+  }
+}

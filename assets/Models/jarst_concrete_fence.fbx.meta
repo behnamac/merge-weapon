@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c61b6f6f-f353-42f0-abb5-afc756515f13",
+  "files": [],
+  "subMetas": {
+    "51b69": {
+      "importer": "gltf-mesh",
+      "uuid": "c61b6f6f-f353-42f0-abb5-afc756515f13@51b69",
+      "displayName": "",
+      "id": "51b69",
+      "name": "Cube_43.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 180
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "66cdb": {
+      "importer": "gltf-scene",
+      "uuid": "c61b6f6f-f353-42f0-abb5-afc756515f13@66cdb",
+      "displayName": "",
+      "id": "66cdb",
+      "name": "jarst_concrete_fence.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "c61b6f6f-f353-42f0-abb5-afc756515f13@66cdb",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c61b6f6f-f353-42f0-abb5-afc756515f13@51b69"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c61b6f6f-f353-42f0-abb5-afc756515f13@66cdb"
+      ]
+    }
+  }
+}

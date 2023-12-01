@@ -1,0 +1,98 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b3026f44-a033-4c6f-88c9-c5f812d3cd4c",
+  "files": [],
+  "subMetas": {
+    "69310": {
+      "importer": "gltf-mesh",
+      "uuid": "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@69310",
+      "displayName": "",
+      "id": "69310",
+      "name": "Symmetry_10.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 2986
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9efff": {
+      "importer": "gltf-mesh",
+      "uuid": "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@9efff",
+      "displayName": "",
+      "id": "9efff",
+      "name": "Symmetry_12.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 24
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4bdf0": {
+      "importer": "gltf-scene",
+      "uuid": "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@4bdf0",
+      "displayName": "",
+      "id": "4bdf0",
+      "name": "jarst_barracks.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@4bdf0",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@69310",
+        "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@9efff"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "b3026f44-a033-4c6f-88c9-c5f812d3cd4c@4bdf0"
+      ]
+    }
+  }
+}

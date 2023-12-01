@@ -1,0 +1,79 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "abb6e6e0-1e9a-4f36-9101-1fa4b4df6362",
+  "files": [],
+  "subMetas": {
+    "ffaaa": {
+      "importer": "gltf-mesh",
+      "uuid": "abb6e6e0-1e9a-4f36-9101-1fa4b4df6362@ffaaa",
+      "displayName": "",
+      "id": "ffaaa",
+      "name": "Cube_48.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 365
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b371a": {
+      "importer": "gltf-scene",
+      "uuid": "abb6e6e0-1e9a-4f36-9101-1fa4b4df6362@b371a",
+      "displayName": "",
+      "id": "b371a",
+      "name": "jarst_water_tower.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "abb6e6e0-1e9a-4f36-9101-1fa4b4df6362@b371a",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "abb6e6e0-1e9a-4f36-9101-1fa4b4df6362@ffaaa"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "abb6e6e0-1e9a-4f36-9101-1fa4b4df6362@b371a"
+      ]
+    }
+  }
+}

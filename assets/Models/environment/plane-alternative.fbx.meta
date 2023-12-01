@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.8",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "d2cef149-3861-4d10-b4c3-0f31acdf120f",
+  "files": [],
+  "subMetas": {
+    "e2349": {
+      "importer": "gltf-mesh",
+      "uuid": "d2cef149-3861-4d10-b4c3-0f31acdf120f@e2349",
+      "displayName": "",
+      "id": "e2349",
+      "name": "Mesh.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7d6ab": {
+      "importer": "texture",
+      "uuid": "d2cef149-3861-4d10-b4c3-0f31acdf120f@7d6ab",
+      "displayName": "",
+      "id": "7d6ab",
+      "name": "base_color_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/environment/Materials/mat_three_Base_color.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b0bc3": {
+      "importer": "gltf-material",
+      "uuid": "d2cef149-3861-4d10-b4c3-0f31acdf120f@b0bc3",
+      "displayName": "",
+      "id": "b0bc3",
+      "name": "mat_three.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb91b": {
+      "importer": "gltf-scene",
+      "uuid": "d2cef149-3861-4d10-b4c3-0f31acdf120f@eb91b",
+      "displayName": "",
+      "id": "eb91b",
+      "name": "plane-alternative.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/environment/Materials/mat_three_Base_color.png"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "d2cef149-3861-4d10-b4c3-0f31acdf120f@eb91b",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "d2cef149-3861-4d10-b4c3-0f31acdf120f@e2349"
+      ],
+      "skeletons": [],
+      "textures": [
+        "d2cef149-3861-4d10-b4c3-0f31acdf120f@7d6ab"
+      ],
+      "materials": [
+        "d2cef149-3861-4d10-b4c3-0f31acdf120f@b0bc3"
+      ],
+      "scenes": [
+        "d2cef149-3861-4d10-b4c3-0f31acdf120f@eb91b"
+      ]
+    }
+  }
+}
